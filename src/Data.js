@@ -47,7 +47,7 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/coding.png';
+import githubdetLogo from './assets/work_logo/Coding.png';
 import csprepLogo from './assets/work_logo/image.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/ecommerce.png';
@@ -56,6 +56,8 @@ import webverLogo from './assets/work_logo/TChat.png';
 import cmLogo from './assets/work_logo/Task.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import img1 from './assets/education_logo/imgg.png'
+import img2 from './assets/education_logo/navlogo.png'
 
 
 export const SkillsInfo = [
@@ -212,6 +214,12 @@ export const education = [
   },
 ];
 
+export const logos=
+  { 
+    image1:img1,
+    image2:img2
+  }
+
 export const projects = [
   {
     id: 0,
@@ -283,24 +291,5 @@ export const projects = [
     github: "https://github.com/Priyanshushr19/Task-Manager",
     webapp: "",
   },
-  // {
-  //   id: 7,
-  //   title: "Image Search App",
-  //   description:
-  //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-  //   image: imagesearchLogo,
-  //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Search-App",
-  //   webapp: "https://imagsearch.netlify.app/",
-  // },
-  //   {
-  //     id: 8,
-  //     title: "Image Background Remover",
-  //     description:
-  //       "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  //     image: removebgLogo,
-  //     tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  //     github: "https://github.com/codingmastr/Image-Background-Remover",
-  //     webapp: "https://removeyourbg.netlify.app/",
-  //   },
+ 
 ];  

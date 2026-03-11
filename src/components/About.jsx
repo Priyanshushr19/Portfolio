@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import { motion, AnimatePresence } from "framer-motion";
+import { logos } from "../Data";
 
 function About() {
 
@@ -107,7 +108,7 @@ function About() {
           viewport={{ once: true }}
         >
           <motion.img
-            src="imgg.png"
+            src={logos.image1}
             alt="Priyanshu Sharma"
             animate={{ y: [0, -15, 0] }}
             transition={{ duration: 4, repeat: Infinity }}

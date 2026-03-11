@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { FiMenu, FiX } from 'react-icons/fi'
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { NavLink } from 'react-router';
+import { logos } from '../Data';
 
 function Navbar() {
 
@@ -33,7 +34,7 @@ function Navbar() {
             <div className='text-white  flex justify-evenly  items-center w-full '>
                 <div class="overflow-hidden rounded-full w-17 h-17">
                     <img
-                        src="/image.png"
+                        src={logos.image2}
                         alt="logo"
                         class="w-full h-full object-cover transition-transform duration-300 ease-in-out hover:scale-125 bg-transparent"
                     />
