@@ -47,7 +47,7 @@ import bsaLogo from './assets/education_logo/bsa_logo.png';
 import vpsLogo from './assets/education_logo/vps_logo.png';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/coding.png';
+import githubdetLogo from './assets/work_logo/Coding.png';
 import csprepLogo from './assets/work_logo/image.png';
 import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/ecommerce.png';
