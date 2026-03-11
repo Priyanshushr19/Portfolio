@@ -291,10 +291,10 @@ export const projects = [
     github: "https://github.com/Priyanshushr19/Task-Manager",
     webapp: "",
   },
-<<<<<<< HEAD
+
  
 ];  
-=======
+
   // {
   //   id: 7,
   //   title: "Image Search App",
@@ -314,6 +314,4 @@ export const projects = [
   //     tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
   //     github: "https://github.com/codingmastr/Image-Background-Remover",
   //     webapp: "https://removeyourbg.netlify.app/",
-  //   },
-];  
->>>>>>> f6ead5418ebec434c05a34d12c8a512811fc1b8c
+  //   }, 
