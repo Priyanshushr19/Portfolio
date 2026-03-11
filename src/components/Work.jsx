@@ -18,7 +18,6 @@ function Project() {
       id="projects"
       className="py-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans relative"
     >
-
       {/* Title */}
       <motion.div
         className="text-center mb-16"
@@ -100,7 +99,6 @@ function Project() {
               transition={{ duration: 0.3 }}
               className="bg-black rounded-xl shadow-2xl w-[90%] max-w-3xl h-[80vh] overflow-hidden relative flex flex-col"
             >
-
               {/* Close Button */}
               <div className="flex justify-end p-4">
                 <button
@@ -125,14 +123,16 @@ function Project() {
 
                 {/* Content */}
                 <div className="lg:p-8 p-6">
-                  <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
+
+                  <h3 className="lg:text-3xl font-bold text-white mb-4">
                     {select.title}
                   </h3>
 
-                  <p className="text-gray-400 mb-6 lg:text-base text-xs">
+                  <p className="text-gray-400 mb-6">
                     {select.description}
                   </p>
 
+                  {/* Tags */}
                   <div>
                     {select.tags.map((tag, index) => (
                       <span
@@ -146,37 +146,46 @@ function Project() {
 
                   {/* Buttons */}
                   <div className="flex gap-4 mt-6">
+
+                    {/* Github */}
                     <a
-                      href="#"
+                      href={select.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-1/2 bg-gray-800 hover:bg-red-600 text-gray-400
-                      lg:px-6 lg:py-2 px-2 py-1 rounded-xl
-                      lg:text-xl text-sm font-semibold text-center"
+                      className={`w-1/2 text-center rounded-xl font-semibold 
+                      lg:px-6 lg:py-2 px-2 py-1 lg:text-xl text-sm
+                      ${
+                        select.github && select.github !== "#"
+                          ? "bg-gray-800 hover:bg-red-600 text-gray-400"
+                          : "bg-gray-700 text-gray-500 pointer-events-none"
+                      }`}
                     >
                       View Code
                     </a>
 
+                    {/* Live */}
                     <a
-                      href="#"
+                      href={select.webapp}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-1/2 bg-gray-800 hover:bg-red-600 text-gray-400
-                      lg:px-6 lg:py-2 px-2 py-1 rounded-xl
-                      lg:text-xl text-sm font-semibold text-center"
+                      className={`w-1/2 text-center rounded-xl font-semibold 
+                      lg:px-6 lg:py-2 px-2 py-1 lg:text-xl text-sm
+                      ${
+                        select.webapp && select.webapp !== "#"
+                          ? "bg-gray-800 hover:bg-red-600 text-gray-400"
+                          : "bg-gray-700 text-gray-500 pointer-events-none"
+                      }`}
                     >
                       View Live
                     </a>
-                  </div>
 
+                  </div>
                 </div>
               </div>
-
             </motion.div>
           </motion.div>
         )}
       </AnimatePresence>
-
     </div>
   );
 }
