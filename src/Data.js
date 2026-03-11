@@ -220,8 +220,8 @@ export const projects = [
       "Developed a full-stack coding platform using the MERN stack where users can solve programming problems and execute code in multiple languages. Integrated Judge0 API for real-time code execution and Gemini AI to provide intelligent hints and explanations for problem solving. Implemented JWT-based authentication, problem management, and secure backend APIs using Node.js and Express. Optimized performance with Redis caching and managed media uploads using Cloudinary, with a responsive UI built using React and Tailwind CSS.",
     image: githubdetLogo,
     tags: ["React Js", "Tailwind CSS", "JavaScript", "Node Js", "Express Js", "Redis", "Authentication", "Judge0", "Gemini API", "API"],
-    github: "https://coding-platform-front-end.onrender.com",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    github: "https://github.com/Priyanshushr19/Coding-Platform",
+    webapp: "https://coding-platform-front-end.onrender.com",
   },
   {
     id: 1,
