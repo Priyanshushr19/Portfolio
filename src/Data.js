@@ -273,16 +273,16 @@ export const projects = [
     github: "https://github.com/Priyanshushr19/Chat-App",
     webapp: "#",
   },
-  {
-    id: 6,
-    title: "Task-Manager",
-    description:
-      "Developed a full-stack task management application that allows users to create, update, and track daily tasks efficiently. Implemented user authentication, task creation, editing, deletion, and status tracking with secure backend APIs. Designed a responsive interface for managing tasks with features like filtering and task organization. Built using React, Node.js, Express, and MongoDB, supporting complete CRUD operations for task management.",
-    image: cmLogo,
-    tags: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "REST APIs", "CRUD Operations"],
-    github: "https://github.com/Priyanshushr19/Task-Manager",
-    webapp: "",
-  },
+  // {
+  //   id: 6,
+  //   title: "Task-Manager",
+  //   description:
+  //     "Developed a full-stack task management application that allows users to create, update, and track daily tasks efficiently. Implemented user authentication, task creation, editing, deletion, and status tracking with secure backend APIs. Designed a responsive interface for managing tasks with features like filtering and task organization. Built using React, Node.js, Express, and MongoDB, supporting complete CRUD operations for task management.",
+  //   image: cmLogo,
+  //   tags: ["React JS", "Node.js", "Express.js", "MongoDB", "JWT Authentication", "REST APIs", "CRUD Operations"],
+  //   github: "https://github.com/Priyanshushr19/Task-Manager",
+  //   webapp: "",
+  // },
 
  
 ];  
